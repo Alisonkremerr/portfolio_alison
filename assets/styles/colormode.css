@@ -4,16 +4,16 @@ body {
     color: rgba(255, 255, 255, 0.8);
     }
     .light-mode body {
-    background-color: #bfc2c9;
-    color: #161717;
+    background-color: #e6e7e8;
+    color: hsl(240, 44%, 14%);
     }
     .dark-mode body {
-    background-color: #343533;
-    color: #ebf4f1;
+    background-color: #2d2d2d;
+    color: #ffffff;
     }
     .gray-mode body {
-    background-color: #838687;
-    color: #f4f1ed;
+    background-color: #a2a2a2;
+    color: #1a2255;
     }
     
     /* Active link */

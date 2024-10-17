@@ -2,7 +2,7 @@
   <div class="pr-5">
     <Drawer />
   </div>
-  <div class="container mb-20 mt-10 animate-fade animate-once animate-delay-[500ms]"> 
+  <div class="ml-3 mr-3 lg:ml-24 lg:mr-24 mb-20 mt-10 animate-fade animate-once animate-delay-[500ms]"> 
     <div class="mb-10">
       <NuxtLink :to="`/${post._dir}`">
         <span>

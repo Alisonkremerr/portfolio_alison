@@ -39,9 +39,9 @@ onMounted(async () => {
       <!-- Info section that triggers the hover effect -->
       <div class="info flex flex-col items-center justify-center h-screen">
         <div class="container text-left p-1 lg:p-20">
-          <div class="container opacity-80 animate-fade animate-once animate-delay-[100ms] p-10 lg:p-20 bg-white dark:bg-black bg-opacity-80 dark:bg-opacity-80">
-            <div class="text-xl font-bold">{{ settings.homepage_title }}</div>
-            <div class="text-sm opacity-80">{{ settings.body }}</div>
+          <div class="container opacity-80 animate-fade animate-once animate-delay-[100ms] p-10 lg:p-20 bg-white dark:bg-black bg-opacity-0 dark:bg-opacity-80">
+            <div class="text-6xl font-black color:red opacity-100">{{ settings.homepage_title }}</div>
+            <div class="text-m opacity-100">{{ settings.body }}</div>
 
             <div class="flex mt-10">
                 <NuxtLink to="https://github.com/bureaupixel/" target="_blank">
@@ -51,7 +51,7 @@ onMounted(async () => {
                       </svg>
                     </div>
                     <div class="flex-col">
-                    <span class="text-xs opacity-80">This dataset is based on a Bureaupixel Github repository with a MIT License. Feel free to download and install it on your local machine.</span>
+                    <span class="text-m opacity-65"></span>
                     </div>
                   </NuxtLink>
             </div>
